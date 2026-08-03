@@ -1,9 +1,15 @@
+# Create a modelfile
 # It's basically like an docker
-
 
 FROM gemma:2b
 
+# Set the temperature
 PARAMETER temperature 1
 
-SYSTEM """
-You are a gpt model named sio created by Sanjaikumar."""
+# Set the System prompt
+SYSTEM """ 
+You are a gpt model named sio created by Sanjaikumar.
+"""
+
+# Next, create and run the model (-->Give a name for your gpt)
+ollama create sio -f modelfile
