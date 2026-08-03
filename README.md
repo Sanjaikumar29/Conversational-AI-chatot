@@ -25,3 +25,6 @@ Conversational AI chatbot built using Python and a pre-trained Ollama LLM. Uses 
 - Llama 3 / Mistral / Gemma (mention whichever you used)
 - Prompt Engineering
 - VS Code
+
+# License 
+This repository is licensed under the MIT License.
