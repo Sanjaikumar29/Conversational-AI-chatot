@@ -9,6 +9,11 @@ Conversational AI chatbot built using Python and a pre-trained Ollama LLM. Uses 
 - He chatbot answers coding and aptitude questions using prompt engineering techniques to generate more relevant and accurate responses.
 - The project demonstrates integration of local LLMs into a Python application without training a custom AI model.
 
+# Installation
+1. Install ollama / hugging face
+2. After installing it open command prompt(cmd+r) and type ollama run llama2,gemma:2b
+3. Wait for to downloading this models once it download you can use it, then type ollama run gemma:2b
+4. Ask your questions.
 
 # Features 
 - AI-powered conversational chatbot
